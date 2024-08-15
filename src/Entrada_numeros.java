@@ -6,7 +6,7 @@ public class Entrada_numeros {
     public static void main(String[] args) {
 
 
-        
+
         String num1 = JOptionPane.showInputDialog("Digite su numero");
 
         double num2 = Double.parseDouble(num1);
