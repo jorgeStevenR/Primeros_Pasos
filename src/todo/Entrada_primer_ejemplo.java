@@ -1,3 +1,5 @@
+package todo;
+
 import java.util.Scanner;
 public class Entrada_primer_ejemplo {
 

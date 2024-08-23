@@ -1,3 +1,5 @@
+package todo;
+
 import java.util.*;
 public class Adivinar_El_Numero {
     public static void main(String[] args) {

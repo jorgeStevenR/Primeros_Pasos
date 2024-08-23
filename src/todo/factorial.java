@@ -1,3 +1,5 @@
+package todo;
+
 import javax.swing.*;
 public class factorial {
     public static void main(String[] args) {

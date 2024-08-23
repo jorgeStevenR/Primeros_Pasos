@@ -1,3 +1,5 @@
+package todo;
+
 import javax.swing.*;
 public class peso_ideal {
     public static void main(String[] args) {

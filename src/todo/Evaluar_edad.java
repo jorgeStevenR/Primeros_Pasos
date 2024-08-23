@@ -1,3 +1,5 @@
+package todo;
+
 import java.util.Scanner;
 public class Evaluar_edad {
     public static void main(String[] args) {

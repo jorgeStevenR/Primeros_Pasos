@@ -1,3 +1,5 @@
+package todo;
+
 import javax.swing.*;
 
 public class Entrada_segundo_ejemplo {
