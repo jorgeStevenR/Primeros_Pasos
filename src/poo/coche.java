@@ -37,7 +37,7 @@ public class coche {
     // GETTER siempre tiene que llevar el tipo de dato el nombre del getter y un return
     public String dime_datos_generales() { 
     	
-    	return "La plataforma del vehiculo tiene " + rueda + "Ruedas" +
+    	return "La plataforma del vehiculo tiene " + rueda + " Ruedas" +
     	". Mide " + largo/1000 + " metros con un ancho de " + ancho + " cm " +
     	"y un peso de plataforma de " + peso_plataforma + " kg";
     	

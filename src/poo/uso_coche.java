@@ -3,10 +3,12 @@ import javax.swing.*;
 public class uso_coche {
 		
     public static void main(String[] args) {
-    	
-    	coche mi_coche =new coche();
-    	
-    	mi_coche.establece_color(JOptionPane.showInputDialog("Introduce Color"));
+
+		coche mi_coche =new coche();
+
+		System.out.println(mi_coche.dime_datos_generales());
+
+		mi_coche.establece_color(JOptionPane.showInputDialog("Introduce Color"));
     	
     	System.out.println(mi_coche.dime_datos_generales());
  
@@ -24,7 +26,7 @@ public class uso_coche {
     	
     	System.out.println("El precio final del coche es: " + mi_coche.precio_coche() + '€');
     	
-    	
+
     	
     	
     	    	
