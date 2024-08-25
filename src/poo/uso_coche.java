@@ -6,8 +6,6 @@ public class uso_coche {
 
 		coche mi_coche =new coche();
 
-		System.out.println(mi_coche.dime_datos_generales());
-
 		mi_coche.establece_color(JOptionPane.showInputDialog("Introduce Color"));
     	
     	System.out.println(mi_coche.dime_datos_generales());
