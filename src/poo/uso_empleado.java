@@ -22,11 +22,12 @@ public class uso_empleado {
         System.out.println("Nombre " + empleado3.dame_nombre() + " sueldo : " + empleado3.dame_sueldo()
                + " Fecha de alta " + empleado3.dame_alta_contrato());*/
 
-        empleado [] misEmpleados = new empleado[3];
+        empleado [] misEmpleados = new empleado[4];
 
         misEmpleados[0] =new empleado("Paco Gomez",85000,1990,12,17);
         misEmpleados[1] =new empleado("Jorge Rodriguez",90000,1995,5,7);
         misEmpleados[2] =new empleado("Laura Cruz",95000,2003,10,23);
+        misEmpleados[3] =new empleado("Diana Vargas");
 
         /*
         for (int i = 0; i<3; i++){
@@ -76,9 +77,10 @@ class empleado{
 
         alta_contrato = caledario.getTime();
 
+    }
 
-
-
+    public empleado(String nom){
+        this(nom,3000,2000,1,1);
     }
 
     public String dame_nombre(){ //metodo Getter
